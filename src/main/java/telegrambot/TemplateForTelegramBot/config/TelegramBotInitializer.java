@@ -1,4 +1,4 @@
-package rems.telegrambot.ChlorophyllNetBot.config;
+package telegrambot.TemplateForTelegramBot.config;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
-import rems.telegrambot.ChlorophyllNetBot.service.TelegramBotService;
+import telegrambot.TemplateForTelegramBot.service.TelegramBotService;
 
 @Slf4j
 @Component

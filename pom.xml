@@ -8,12 +8,12 @@
 		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>rems.telegrambot</groupId>
-	<artifactId>ChlorophyllNetBot</artifactId>
+	<groupId>telegrambot</groupId>
+	<artifactId>TemplateForTelegramBot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>ChlorophyllNetBot</name>
-	<description>ChlorophyllNetBot</description>
+	<name>TemplateForTelegramBot</name>
+	<description>TemplateForTelegramBot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

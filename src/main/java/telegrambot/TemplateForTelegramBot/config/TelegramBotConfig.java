@@ -1,4 +1,4 @@
-package rems.telegrambot.ChlorophyllNetBot.config;
+package telegrambot.TemplateForTelegramBot.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

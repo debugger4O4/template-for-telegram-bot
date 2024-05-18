@@ -1,4 +1,4 @@
-package rems.telegrambot.ChlorophyllNetBot;
+package telegrambot.TemplateForTelegramBot;
 
 import org.flywaydb.core.Flyway;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 
 @SpringBootApplication
-public class ChlorophyllNetBotApplication {
+public class TemplateForTelegramBotApplication {
 
 	private Flyway flyway;
 
@@ -26,7 +26,7 @@ public class ChlorophyllNetBotApplication {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChlorophyllNetBotApplication.class, args);
+		SpringApplication.run(TemplateForTelegramBotApplication.class, args);
 	}
 
 }

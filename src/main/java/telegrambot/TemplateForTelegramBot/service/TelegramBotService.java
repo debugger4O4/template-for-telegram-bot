@@ -1,4 +1,4 @@
-package rems.telegrambot.ChlorophyllNetBot.service;
+package telegrambot.TemplateForTelegramBot.service;
 
 import com.vdurmont.emoji.EmojiParser;
 import lombok.extern.slf4j.Slf4j;
@@ -13,13 +13,12 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.objects.commands.BotCommand;
 import org.telegram.telegrambots.meta.api.objects.commands.scope.BotCommandScopeDefault;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import rems.telegrambot.ChlorophyllNetBot.config.TelegramBotConfig;
-import rems.telegrambot.ChlorophyllNetBot.entity.User;
-import rems.telegrambot.ChlorophyllNetBot.repository.UserRepository;
+import telegrambot.TemplateForTelegramBot.config.TelegramBotConfig;
+import telegrambot.TemplateForTelegramBot.entity.User;
+import telegrambot.TemplateForTelegramBot.repository.UserRepository;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Slf4j
 @Component

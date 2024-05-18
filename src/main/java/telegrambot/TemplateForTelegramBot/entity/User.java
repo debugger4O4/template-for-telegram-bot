@@ -1,4 +1,4 @@
-package rems.telegrambot.ChlorophyllNetBot.entity;
+package telegrambot.TemplateForTelegramBot.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
